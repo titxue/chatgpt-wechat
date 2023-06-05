@@ -10,7 +10,6 @@ from channel.chat_message import ChatMessage
 from common.log import logger
 from plugins import *
 from lib import itchat
-# from myUtils import MysqldbHelper
 import json
 import re
 import requests
@@ -38,8 +37,6 @@ class Notice(Plugin):
             return
 
         content = e_context["context"].content
-        # logger.info(e_context)
-        # logger.info(e_context["context"])
         logger.info(content)
 
 
