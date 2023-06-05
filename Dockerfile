@@ -1,3 +1,3 @@
-FROM ghcr.io/zhayujie/chatgpt-on-wechat:latest
+FROM docker pull ghcr.io/titxue/chatgpt-wechat:master
 
 ENTRYPOINT ["/entrypoint.sh"]
