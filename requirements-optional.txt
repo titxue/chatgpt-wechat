@@ -26,3 +26,6 @@ wechatpy
 
 --extra-index-url https://pypi.python.org/simple
 chatgpt_tool_hub==0.4.4
+
+# mysql
+pymysql
